@@ -21,5 +21,8 @@ document.getElementById("submitbtn").addEventListener('click', function(){
     if (nameValue === myName){
         document.getElementById("name").style.borderColor = "green";
         alert('Correct name.');
+    } else {
+        document.getElementById("name").style.borderColor = "red";
+        alert('Incorrect name.');
     }
 });
